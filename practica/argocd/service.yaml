@@ -1,0 +1,12 @@
+# practica/k8s/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-world
+  namespace: practica
+spec:
+  selector:
+    app: hello-world
+  ports:
+    - port: 80
+      targetPort: 80
