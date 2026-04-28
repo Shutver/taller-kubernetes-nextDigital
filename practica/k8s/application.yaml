@@ -1,4 +1,0 @@
-source:
-  repoURL: https://github.com/Shutver/taller-kubernetes-nextDigital.git
-  targetRevision: HEAD
-  path: practica/k8s
